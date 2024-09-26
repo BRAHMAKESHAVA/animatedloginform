@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login & Registration Form | Codehal</title>
+  <link rel="stylesheet" type="text/css" href="animated.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+ 
+<body>
+ 
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+      <form action="" onsubmit="event.preventDefault(); login();">
+        <h2>Login</h2>
+        <div class="input-group">
+          <input type="text" id="n1" required>
+          <label for="n1">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="password" id="n2" required>
+          <label for="n2">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit">Login</button>
+        <div class="signUp-link">
+          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+        <div id="message1" style="color: red;"></div>
+      </form>
+    </div>
+ 
+    <div class="form-wrapper sign-up">
+      <form action="" onsubmit="event.preventDefault(); signUp();">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <input type="text" id="n1" required>
+          <label for="n1">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="email" required>
+          <label for="">Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" id="n2" required>
+          <label for="n2">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> I agree to the terms & conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="signUp-link">
+          <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+        </div>
+        <div id="message" style="color: red;"></div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="animated.js"></script>
+</body>
+ 
+</html>
+
+
+
+
+
+
+
+
+<!-- practive
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style type="text/css">
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+  }
+  body{
+    /* background: black; */
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+</style>
+<body>
+  <div class="main">
+    <div class="signUp">
+      <div class="input">
+        <input type="text">
+        <label for="username">username</label>
+      </div>
+      <div class="input">
+        <input type="password">
+        <label for="password">password</label>
+      </div>
+      <div class="rem">
+        <label for=""><input type="checkbox">remember me</label>
+
+      </div>
+      <button type="submit">Login</button>
+      <div class="signUplink">
+        <p>do not hava account?
+        <a href="#" class="signUplink">Sign Up</a></p>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html> -->
